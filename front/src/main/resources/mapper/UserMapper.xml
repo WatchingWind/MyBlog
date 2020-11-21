@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.classmates.blog.mapper.UserMapper">
+    <insert id="register" parameterType="com.classmates.blog.po.UserPo">
+
+    </insert>
+
+
+    <select id="login" resultType="com.classmates.blog.po.UserPo">
+        select * from
+    </select>
+</mapper>

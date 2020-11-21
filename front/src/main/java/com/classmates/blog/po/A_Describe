@@ -1,0 +1,3 @@
+PO: Persistence Object
+持久化层，于数据库的表数据一一对应
+主要用于数据插入

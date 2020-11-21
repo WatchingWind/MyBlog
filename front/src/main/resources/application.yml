@@ -1,0 +1,17 @@
+server:
+  port: 9000
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://mysql:3306/com.classmates.blog?useUnicode=true&useSSL=false&characterEncoding=utf8&serverTimezone=Asia/Shanghai
+    username: root
+    password: 8888888866
+mybatis:
+  mapper-locations:
+    - "classpath:mapper/*mapper.xml"
+  type-aliases-package: com.classmates.blog.po.*
+
+logging:
+  level:
+    root: trace
